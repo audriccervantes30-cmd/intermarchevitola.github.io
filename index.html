@@ -28,9 +28,12 @@
             font-weight: bold;
             font-size: 1.2rem;
             color: #333;
+            display: inline-block; /* Assure que toute la zone est cliquable */
         }
         .entree { background-color: #84b361; }
         .sortie { background-color: #cc5551; }
+        /* Petit effet quand on appuie dessus */
+        .btn:active { transform: scale(0.95); opacity: 0.8; }
     </style>
 </head>
 <body>
@@ -38,7 +41,8 @@
     <p>Enregistrer votre visite :</p>
     <div class="container">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScASFmlk_dGPigu5xjuSu5YV-SXqLo_shEg2R4LNgRc2fGwZw/viewform" class="btn entree">ENTRÉE</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScASFmlk_dGPigu5xjuSu5YV-SXqLo_shEg2R4LNgRc2fGwZw/viewform" class="btn sortie">SORTIE</a>
+        
+        <a href="METS_ICI_TON_LIEN_DE_SORTIE" class="btn sortie">SORTIE</a>
     </div>
 </body>
 </html>
